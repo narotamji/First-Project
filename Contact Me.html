@@ -19,18 +19,17 @@
 <hr>
 <br>
 <form action="mailto:in.noogle@gmail.com" method="post" enctype="text/plain" >
-    <label>Your Name: </label>
-    <input type="text" class="required"><br>
+   <label>Your Name: </label>
+    <input type="text" name="YourName" id="" placeholder="please enter your full name"><br>
     <label>Your Email: </label>
-    <input type="email"class="required"> <br>
+    <input type="email" name="YourEmail" placeholder="please enter your email"> <br>
     <label>Phone No.: </label>
-    <input type="text"class="required"><br>
+    <input type="tel" name="PhoneNo" id="phone" pattern="[0-9]{5}-[0-9]{5}" maxlength="10" minlength="10" placeholder="your phone number"><br>
     <label>Your Message: </label><br>
-    <textarea name="" id="" cols="32" rows="5"></textarea><br>
+    <textarea name="YourMessage" id="" cols="32" rows="5"></textarea><br>
     <input type="checkbox" name="" id="">
-    <label>Sign up for our newsletter</label> <br><br>
+    <label>Sign up for my newsletter</label> <br><br>
     <input type="submit" value="Submit">
-    
 </form>    
 </body>
 </html>
